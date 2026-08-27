@@ -12,8 +12,14 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/language-server": "^2.16.15",
+    "@astrojs/ts-plugin": "^1.10.11",
     "@picocss/pico": "^2.1.1",
-    "astro": "^7.2.8"
+    "astro": "^7.2.8",
+    "prettier": "^3.9.6",
+    "prettier-plugin-astro": "^0.14.1",
+    "sass": "^1.103.1",
+    "typescript": "^7.0.2"
   },
   "allowScripts": {
     "esbuild": true
