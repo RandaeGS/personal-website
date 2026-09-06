@@ -1,0 +1,106 @@
+---
+
+---
+
+<article>
+	<div>
+		<h2>Education</h2>
+	</div>
+
+	<div class="education">
+		<div class="entry">
+			<div class="entry-header">
+				<div>
+					<h3>Pontificia Universidad Católica Madre y Maestra (PUCMM)</h3>
+					<p class="detail">BS in Computer Science · Santiago, Dominican Republic</p>
+				</div>
+				<p class="dates">Jan 2021 – Sep 2025</p>
+			</div>
+
+			<div class="thesis">
+				<p class="label">Thesis</p>
+				<p>
+					Smart Stock Analyzer: Inventory management optimization in collection centers in the Dominican
+					Republic via computer vision
+				</p>
+			</div>
+		</div>
+
+		<div class="certs">
+			<h4>Certifications</h4>
+			<ul>
+				<li>Spring Boot 3, Spring 6 & Hibernate for Beginners – Udemy</li>
+				<li>Database Change Management for Java Developers – JConf Dominicana</li>
+				<li>Vue – The Complete Guide (incl. Router & Composition API) – Udemy</li>
+				<li>Software Architecture & Design of Modern Large Scale Systems – Udemy</li>
+				<li>Introduction to Software Testing – University of Minnesota</li>
+				<li>Boot.dev’s Learn Shells and Terminals Course – Boot.dev</li>
+				<li>HTML, CSS, and JavaScript for Web Developers – Johns Hopkins University</li>
+			</ul>
+		</div>
+	</div>
+</article>
+
+<style>
+	.entry {
+		padding-bottom: 4px;
+	}
+
+	.entry-header {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 8px;
+		align-items: flex-start;
+	}
+
+	.entry h3 {
+		margin-bottom: 4px;
+	}
+
+	.detail,
+	.dates {
+		font-size: 0.875rem;
+	}
+
+	.dates {
+		white-space: nowrap;
+		margin-bottom: 8px;
+	}
+
+	.thesis {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		margin-bottom: 16px;
+	}
+
+	.label {
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+
+	.thesis p:last-child {
+		margin-bottom: 0;
+	}
+
+	.certs {
+		border-top: 1px solid rgba(127, 127, 127, 0.35);
+		padding-top: 8px;
+	}
+
+	.certs ul {
+		margin-bottom: 0;
+	}
+
+	.certs li {
+		margin-bottom: 4px;
+	}
+
+	@media (min-width: 768px) {
+		.entry-header {
+			flex-direction: row;
+			align-items: baseline;
+		}
+	}
+</style>
