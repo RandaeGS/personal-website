@@ -1,0 +1,192 @@
+---
+
+---
+
+<article>
+	<div>
+		<h2>Experience</h2>
+	</div>
+
+	<div class="experience">
+		<div class="job">
+			<div class="job-header">
+				<div>
+					<h3>Software Engineer</h3>
+					<p class="company">
+						Adscon · Santiago, Dominican
+						Republic
+					</p>
+				</div>
+				<p class="dates">Dec 2025 – Present</p>
+			</div>
+
+			<p class="context">
+				Freelance project for a residential management
+				company
+			</p>
+
+			<ul>
+				<li>
+					Transformed complex business
+					requirements into a functional system,
+					streamlining administration tasks for
+					residential management
+				</li>
+				<li>
+					Built a high-performance responsive web
+					interface using Java 25 and Vaadin 25,
+					leveraging the latest LTS features for a
+					future-proof tech stack
+				</li>
+				<li>
+					Implemented a cloud-native storage
+					architecture using the Amazon S3 SDK and
+					Digital Ocean Spaces for secure,
+					scalable document and invoice management
+				</li>
+				<li>
+					Developed a custom automated backup
+					strategy to ensure data integrity and
+					disaster recovery for the PostgreSQL
+					production database
+				</li>
+			</ul>
+		</div>
+
+		<div class="job">
+			<div class="job-header">
+				<div>
+					<h3>Web Developer</h3>
+					<p class="company">
+						Decasystems · Santiago,
+						Dominican Republic
+					</p>
+				</div>
+				<p class="dates">Apr 2025 – Nov 2025</p>
+			</div>
+
+			<ul>
+				<li>
+					Integrated handheld warehouse scanners
+					with the ERP web application, automating
+					data entry for labeling and inventory
+					tracking
+				</li>
+				<li>
+					Designed and deployed scalable custom
+					modules to facilitate the onboarding of
+					new enterprise clients into the legacy
+					ecosystem
+				</li>
+				<li>
+					Developed critical internal utilities
+					using Playwright to resolve
+					high-priority problems in electronic
+					invoicing (e-CF) processing
+				</li>
+				<li>
+					Audited existing REST APIs to identify
+					and patch security vulnerabilities,
+					significantly enhancing system
+					performance and data safety
+				</li>
+			</ul>
+		</div>
+
+		<div class="job">
+			<div class="job-header">
+				<div>
+					<h3>Web Developer Intern</h3>
+					<p class="company">
+						Decasystems · Santiago,
+						Dominican Republic
+					</p>
+				</div>
+				<p class="dates">Feb 2025 – Apr 2025</p>
+			</div>
+
+			<ul>
+				<li>
+					Optimized database performance by
+					analyzing execution plans and rewriting
+					inefficient PostgreSQL queries used in
+					JasperReports
+				</li>
+				<li>
+					Engineered an end-to-end Product Batch
+					Management feature, integrating it
+					seamlessly into the existing ERP
+					architecture
+				</li>
+				<li>
+					Conducted rapid debugging and patch
+					deployment for legacy code, resolving
+					high-priority issues in a fast-paced
+					development cycle
+				</li>
+			</ul>
+		</div>
+	</div>
+</article>
+
+<style>
+	.experience {
+		display: flex;
+		flex-direction: column;
+		gap: 0px;
+	}
+
+	.job {
+		padding: 16px 0 4px;
+	}
+
+	.job + .job {
+		border-top: 1px solid rgba(127, 127, 127, 0.35);
+	}
+
+	.job-header {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 8px;
+		align-items: flex-start;
+	}
+
+	.job h3 {
+		margin-bottom: 4px;
+	}
+
+	.company {
+		margin-bottom: 8px;
+	}
+
+	.company,
+	.dates {
+		font-size: 0.875rem;
+	}
+
+	.dates {
+		white-space: nowrap;
+		margin-bottom: 8px;
+	}
+
+	.context {
+		margin-bottom: 8px;
+		font-style: italic;
+	}
+
+	.job ul {
+		margin-bottom: 0;
+	}
+
+	.job li {
+		margin-bottom: 4px;
+	}
+
+	@media (min-width: 768px) {
+		.job-header {
+			flex-direction: row;
+			align-items: baseline;
+		}
+	}
+</style>
