@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 import PersonalImage from "../style/images/personal.jpg";
 ---
 
-<article id="container">
+<article id="about">
 	<div id="image">
 		<Image src={PersonalImage} alt="Randae Garcia Personal Image" />
 	</div>
@@ -99,7 +99,7 @@ import PersonalImage from "../style/images/personal.jpg";
 </article>
 
 <style>
-	#container {
+	#about {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
@@ -130,7 +130,7 @@ import PersonalImage from "../style/images/personal.jpg";
 	}
 
 	@media (min-width: 768px) {
-		#container {
+		#about {
 			flex-direction: row;
 			flex-wrap: nowrap;
 		}

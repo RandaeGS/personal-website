@@ -1,5 +1,6 @@
 ---
 import "../style/css/style.scss";
+import SectionNav from "../components/SectionNav.astro";
 ---
 
 <html>
@@ -16,6 +17,7 @@ import "../style/css/style.scss";
 		<main class="container">
 			<slot />
 		</main>
+		<SectionNav />
 	</body>
 </html>
 
@@ -23,5 +25,13 @@ import "../style/css/style.scss";
 	article {
 		background-color: #1f2937;
 		border-radius: 12px;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	main {
+		padding-bottom: 96px;
 	}
 </style>
